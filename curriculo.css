@@ -1,0 +1,152 @@
+/* font-family: 'Roboto', sans-serif; */
+
+*{
+    margin: 0; 
+    padding: 0; 
+    outline: none; 
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body { 
+    background-color: lavender;
+    max-width: 100%;
+    margin: 50px;
+    font-family: 'Roboto', sans-serif;
+    }
+
+
+.title1{
+    max-width: 100%;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    text-align: center;
+    flex-wrap: wrap;
+    color: rgb(30, 7, 66);
+    background-color: turquoise
+    }
+
+.eu{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    .me{
+        width: max-content;
+        display : flex;
+        align-content: space-around;
+        background-color: turquoise;
+        flex-direction: column;
+        flex-flow: column wrap;
+        justify-content: left;
+        padding: 20px;
+        height: max-content;
+        /* height: 15%; */
+    }
+        
+        .foto{
+            width: 150px;
+            display: flex;
+            justify-content: space-around;
+            color: rgb(11, 11, 64);
+        }          
+        
+        .about{             
+            justify-content: center;                   
+            display: flex          
+        }
+    
+    
+    .contact {   
+        flex:1; 
+        max-width: 40%;    
+        padding: 2%;    
+        display: flex;    
+        justify-content: right;    
+        flex-direction: column;    
+        flex-wrap: wrap;    
+        color: rgb(11, 11, 64);
+    }
+
+        .email{    
+            max-width: 100%;    
+            padding: 10px;    
+            flex-direction: row;    
+            flex-wrap: wrap;    
+            color: rgb(11, 11, 64)
+        }
+        
+        .linkedin{
+            max-width: 100%;
+            padding: 10px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            color: rgb(11, 11, 64);
+        }
+        
+        .github{
+            max-width: 100%;
+            padding: 10px;
+            flex-direction: row;
+            flex-wrap: wrap;
+            color: rgb(11, 11, 64);
+}
+
+.education{
+    max-width: 100%;
+    padding: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(11, 11, 64);
+    font-size: 18px;
+    
+}
+
+.volunt{
+    max-width: 100%;
+    padding: 40px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: rgb(11, 11, 64);
+    font-size: 18px;
+}
+
+h3{
+    margin: 2%;
+    background-color: turquoise;
+    font-size: x-large;
+    justify-content: center;                   
+    display: flex  ;
+
+}
+
+p{
+    margin-bottom: 1%;
+    margin-left: 5%;
+}
+
+h4{
+    margin-top: 3%;
+    margin-bottom: 1%;
+    margin-left: 4%;
+    font-size: large;
+    justify-content: left;
+    display: flex;
+}
+
+.botton{
+
+    margin: 2%;
+    background-color: turquoise;
+    font-size: x-large;
+    justify-content: space-evenly;
+    display: flex  ;
+    max-width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
